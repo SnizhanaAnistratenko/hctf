@@ -1,0 +1,694 @@
+body{
+    margin: 0;
+    background:#F5F5F5;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;}
+.contOB{ 
+    margin: auto;
+    width: 1440px;
+    background-color: #F5F5F5;
+    }
+/*conteiner*/    
+.container {
+    width: 100% ;
+    max-width: 1440px;
+    height: 945px;
+    
+    margin: 0 auto; }
+.header{/*header*//*conteiner*/
+    width: 1440px;
+    height: 51px;
+    background: #BBA48B; }
+.header__inner{
+    
+    padding-top: 16px;
+    align-items: center;
+    position: absolute;
+    font-family: Sarabun;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;}
+.header__inner__link{
+    font-display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #1A243F;
+    margin: 0 53px;}
+.intro{/*intro*//*conteiner*/
+    position: relative;
+    width: 100% ;
+    height:752px;/*100vh;/*vusota zaimatume 100% ekrana korustuvacha*/
+    
+    /* background-image: url('../im/Go\ to\ South\ Korea!!\ 2.jpg');
+   
+    background-size: cover;
+    filter:sepia(75%) grayscale(30%) brightness(40%); */}
+.into_fon{/*fon*/
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+    background-image: url('../im/Go\ to\ South\ Korea!!\ 2.jpg');
+   filter: brightness(60%);
+    background-size: cover;
+    /*filter:sepia(75%) grayscale(30%) brightness(40%); */}
+.into_fon_2{
+ position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+     background-image: url('../im/Rectangle\ 4.jpg');
+   opacity: 35%;
+    background-size: cover;}
+.nav{/*навігація*/
+    padding-top: 15px;
+    padding-left:758px;
+    align-items: center;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Fira Sans';
+    font-weight: 400; }
+.nav__link{
+    font-display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition:color 0.2s linear;}
+.nav__link:after{ /*підкреслювання*/
+    content: ""; 
+    display: block;
+    width: 100% ;
+    height: 3px;
+    display:none;
+    background-color: blue ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;}
+.nav__link:hover{
+    color: blue;}
+.nav__link:hover:after{
+    display: block;}
+.intro__title{/*текст*/
+    font-family: 'Elsie';
+    position: relative;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 64px;
+    z-index: 1;}
+.intro_bla{
+    font-family: Fira Sans;
+    position: relative;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top:166px;
+    z-index: 1;}
+.intro_bla_bla{
+font-family: Fira Sans;
+position: relative;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 65px;
+z-index: 1;}
+.button_1{  /*кгопка*/
+position: relative;
+height: 48px;
+width: 140px;
+top: 53px;
+left: 642px;
+background: none;
+border:none;}
+.button_1_name{
+position: relative;
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;}
+.button_1_colour{
+position: absolute;
+top: 0;
+left: 0;
+background:#ECECEC;
+filter: blur(2px) opacity(67%);
+height: 100%;
+width: 100%;
+border-radius: 2px; 
+background-size: cover;
+height: 48px;
+width: 140px;
+z-index: 0;}
+.box{/*3 ячейки*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 170px;
+    width: 1256px;
+    height: 340px;
+     margin: auto;
+    background-color:none;
+    z-index: 1;}
+.box_1{
+    height: 340px;
+    width: 340px; 
+    background: #BBA48B;
+    z-index: 1;
+    order: 1;} 
+.box__title_1{
+font-family: Gentium Basic;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+color: #FFFFFF;
+text-align: left; 
+padding-left: 23px;
+padding-top: 82px;}
+.box_bla_1{
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+color: #FFFFFFE8;
+text-align: left;
+height: 90px;
+width: 332px;
+padding-left: 2px;
+padding-top: 35px;}
+.box_bla_bla_1{
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left; 
+    color: #FFFFFF;
+    padding-top: 108px;
+    padding-left: 249px;}
+.box_2{
+   margin-left:24px ;
+   margin-right: 24px;
+    height: 340px;
+    width: 340px; 
+    background: #FFFFFF;
+    z-index: 1;
+    order: 2;} 
+.box__title_2{
+font-family: Gentium Basic;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+color: #2E3A59;
+text-align: left;
+padding-left: 16px;
+padding-top: 80px;}
+.box_bla_2{
+height: 90px;
+width: 326px;
+padding-left: 8px;
+padding-top: 30px;
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: #00000096;}
+.box_bla_bla_2{
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+    padding-top: 108px;
+    padding-left: 240px;}
+.box_3{
+    height: 340px;
+    width: 340px; 
+    background: #173D62;
+    z-index: 1;
+    order: 3;} 
+.box__title_3{
+font-family: Gentium Basic;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+color: #FFFFFF;
+text-align: left;
+padding-left: 23px;
+padding-top: 80px;}
+.box_bla_3{
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: #FFFFFFAB;
+height: 90px;
+width: 277px;
+padding-left: 23px;
+padding-top: 26px;}
+.box_bla_bla_3{
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 108px;
+    padding-left:  249px;}
+ /* container_2 */
+.container_2{
+    position: relative;
+    height: 1160px;
+    width: 1440px;
+    background-color: none;
+    top:143px;}
+.container_2_fon{
+    position:absolute;
+    top: 143px;
+    height: 580px;
+    width: 1440px;
+    background-color:#BBA48B ; 
+    opacity: 22%;}
+.scroll_title_1{/*текст біля прогортки*/
+    position: relative;
+    font-family: Fira Sans;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    left:26px;
+    top:28px;
+    color: #000000;}
+.scroll_bla_1{
+    position: relative;
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #000000;
+    text-align: left;
+    top: 25px;
+    left: 26px;}
+.scroll_bla_bla_1{
+    position: relative;
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color:#173D62;
+    text-align: left;
+    top: 33px;
+    left: 26px;}   
+.scroll{/*scroll*/
+    position: absolute;
+    background-color:none;
+    width: 1173px;
+    height: 394px;
+    top:0px; 
+    left:267px;
+overflow-x: auto;
+scroll-snap-type: x;}
+.scroll_box_1{
+position: absolute;
+height: 354px;
+width: 328px;
+left: 2px;
+top: 2px;
+background-image: url("../im/Rectangle\ 13.jpg");
+scroll-snap-stop: always;}
+.scroll_box_1_name{
+position: relative;
+font-family: Fauna One;
+font-size: 30px;
+font-weight: 400;
+line-height: 37px;
+color: #000000;
+text-align: left;
+height: 37px;
+width: 203px;
+left: 73px;
+top: 283px;}
+.scroll_box_1_fon{
+    position: absolute;
+    background-color:#BBA48B;
+    height: 109px;
+    width:328px;
+    top: 245px;
+    opacity: 85%;}
+.scroll_box_2{
+    position: absolute;
+    height: 354px;
+width: 328px;
+left: 374px;
+top: 2px;
+background-image: url("../im/Rectangle\ 14.jpg");}
+.scroll_box_2_fon{
+    position: absolute;
+    background-color:#E4CFCF;
+    height: 109px;
+    width:328px;
+    top: 245px;
+    opacity: 85%;}
+.scroll_box_2_name{
+    position: relative;
+    font-family: Fauna One;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #000000;
+    text-align: left;
+    top: 283px;
+    left: 42px;}
+.scroll_box_3{
+    position: absolute; 
+    height: 354px;
+    width: 328px;
+    left: 746px;
+    top: 2px;
+    background-image:url("../im/Rectangle\ 15.jpg");}
+.scroll_box_3_fon{
+    position: absolute;
+    height: 109px;
+    width: 330px;
+    left: 0px;
+    top: 247px;  
+    background-color:#E4CFCF;
+    opacity: 85%;}
+.scroll_box_3_name{
+    position: relative;
+    font-family: Fauna One;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #000000;
+    text-align: center;
+    height: 74px;
+    width: 234px;
+    left: 49px;
+    top: 272px;}
+.scroll_box_4{
+position: absolute;
+height: 354px;
+width: 328px;
+left: 1112px;
+top: 0px;
+background-image: url("../im/Rectangle\ 13.jpg");}
+.scroll_box_4_fon{
+    position: absolute;
+    height: 109px;
+    width: 330px;
+    left: 0px;
+    top: 247px;  
+    background-color:#E4CFCF;
+    opacity: 85%;}
+.scroll_box_4_name{
+position: relative;
+    font-family: Fauna One;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #000000;
+    text-align: center;
+    height: 74px;
+    width: 234px;
+    left: 49px;
+    top: 272px;}
+.video{
+    position: absolute;
+    top:465px;
+    left: 88px;}    
+/*conteiner_3*/
+.container_3{
+    position: relative;
+    height: 720px;
+    width: 1440px;
+    background-color:none;
+    top:102px;}
+.news{/*типу новини*/
+position: relative;
+height: 48px;
+width: 300px;
+left:579px;
+top: 0px;
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+color: #000000;
+text-align: left;}
+.block_1{
+position: relative;
+width: 568px;
+height: 344px;
+top: 43px;
+left: 73px;
+background-color:none;}
+.block_1_im{
+background-image: url("../im/Rectangle\ 30.png");
+height: 188px;
+width: 551px;
+left: 0px;
+top: 0px;}
+.block_1_im_2{
+    position: absolute;
+    background-image: url("../im/calendar.png");
+    top: 194px;
+    left: 0px;
+    height: 17px;
+    width: 20px;}
+.block_1_time{
+position: relative;
+height: 18px;
+width: 79px;
+left: 27px;
+top: 8px;
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+color: rgba(0, 0, 0, 0.7);
+text-align: left;}
+.block_1_h1{
+    position: relative;
+font-family: Enriqueta;
+font-size: 30px;
+font-weight: 500;
+line-height: 40px;
+color: #000000;
+text-align: left;
+left: 0px;
+top: 2px;}
+.block_1_bla{
+    position: relative;
+font-family: Sarabun;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+color: #000000;
+text-align: left;
+height: 66px;
+width: 548px;
+left: 7px;
+top: 10px;}
+.block_2{
+position: relative;
+width: 681px;
+height: 348px;
+top: -305px;
+left: 691px;
+background-color:none;}
+.block_2_1{
+position: relative;
+width: 681px;
+height: 112px;
+top: 0px;
+left: 0px;
+background-color:none;}
+.hr_block_2_1{
+position: absolute;
+width: 671px;
+height: 2px;
+left: 0px;
+top:112px;
+background-color: rgba(85, 0, 85, 0.5);}
+.block_2_1_im{
+    background-image: url(../im/Rectangle\ 31.png);
+    height: 104px;
+    width: 157px;
+    left: 0px;
+    top: 0px;}
+.block_2_1_time{
+position: relative;
+height: 22px;
+width: 96px;
+left: 174px;
+top: -100px;
+font-family: Sarabun;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+color:  #0000009E;
+text-align: left;}
+.block_2_1_bla{
+    position: relative;
+    height: 44px;
+left: 174px;
+top: -100px;
+font-family: Sarabun;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+color: #000000;
+text-align: left;}
+.block_2_2{
+    position: relative;
+width: 681px;
+height: 112px;
+top: 10px;
+left: 0px;
+background-color:none;}
+.block_2_2_im{
+    background-image: url(../im/Rectangle\ 32.png);
+    height: 104px;
+width: 157px;
+left: 0px;
+top: 0px;}
+.block_2_2_time{
+    position: relative;
+    height: 22px;
+    width: 92px;
+    left: 174px;
+    top: -104px;
+    font-family: Sarabun;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.62);
+    text-align: left;}
+.block_2_2_bla{
+position: relative;
+height: 22px;
+width: 404px;
+left:174px;
+top: -105px;
+font-family: Sarabun;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+color: #000000;
+text-align: left;}
+.hr_block_2_2{
+    position: absolute;
+    width: 671px;
+    height: 2px;
+    left: 0px;
+    top:112px;
+    background-color: rgba(85, 0, 85, 0.5); }
+.block_2_3{
+    position: relative;
+    width: 681px;
+    height: 112px;
+    top: 18px;
+    left: 0px;
+    background-color:none; }
+.block_2_3_im{
+    position: relative;
+    background-image: url(../im/Rectangle\ 33.png);
+    height: 104px;
+width: 157px;
+left: 0px;
+top: 0px;}
+.block_2_3_time{
+    position: relative;
+    height: 22px;
+width: 101px;
+left:174px;
+top: -104px;
+font-family: Sarabun;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+color: rgba(0, 0, 0, 0.62);
+text-align: left;}
+.block_2_3_bla{
+    position: relative;
+    height: 22px;
+width: 281px;
+left: 174px;
+top:-105px;
+font-family: Sarabun;
+font-size: 17px;
+font-weight: 500;
+line-height: 22px;
+color: #000000;
+text-align: left;}
+.button_2{  /*кнопка*/
+    position: relative;
+    height: 31px;
+    width: 135px;
+    top: -68px;
+    left: 453px;
+    background:none;
+    border:none;}
+.button_2_bla{
+    position: relative;
+    font-family: Sarabun;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;}
+.button_2_fon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#BBA48B;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px; 
+    background-size: cover;
+    z-index: 0;} 
+.end{
+    position: absolute;
+    height: 227px;
+    width: 1440px;
+    top: 510px;
+    left: 0px;
+    background-color:#1A243F;}
+.end_1{
+    position: relative;
+    height: 227px;
+    width: 415px;
+    top:0px;
+    left: 0px;
+    background-color:none;}
+.end_1_fon{
+position: absolute;
+background-image: url(../im/Popular_Vector_Logos_Free_Download-removebg-preview\ 1.png);
+}
