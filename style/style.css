@@ -45,6 +45,27 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     color: #1A243F;
     margin: 0 53px;}
+.photo_1{
+position:relative;
+height: 18.036001205444336px;
+width: 18.010000228881836px;
+left: 20px;
+top:18px;
+background-image:url(../im/coolicon.png);}
+.photo_2{
+position: relative;
+height: 18px;
+width: 18px;
+left: 290px;
+top: 0px;
+background-image: url(../im/coolicon_2.png);}
+.photo_3{
+position: relative;
+height: 16px;
+width: 20px;
+left: 550px;
+top: -16px;
+background-image: url(../im/coolicon_3.png);}
 .intro{/*intro*//*conteiner*/
     position: relative;
     width: 100% ;
@@ -74,14 +95,15 @@ height: 100%;
    opacity: 35%;
     background-size: cover;}
 .nav{/*навігація*/
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left:758px;
     align-items: center;
     position: absolute;
     text-transform: uppercase;
     font-size: 24px;
     font-family: 'Fira Sans';
-    font-weight: 400; }
+    font-weight: 400;
+    z-index: 1; }
 .nav__link{
     font-display: inline-block;
     vertical-align: top;
@@ -99,8 +121,7 @@ height: 100%;
     background-color: blue ;
     position: absolute;
     top: 100%;
-    left: 0;
-    z-index: 1;}
+    left: 0;}
 .nav__link:hover{
     color: blue;}
 .nav__link:hover:after{
@@ -144,6 +165,8 @@ background: none;
 border:none;}
 .button_1_name{
 position: relative;
+top: 2px;
+left: 2px;
 font-family: Fira Sans;
 font-size: 20px;
 font-weight: 700;
@@ -180,6 +203,27 @@ z-index: 0;}
     background: #BBA48B;
     z-index: 1;
     order: 1;} 
+.photo_1_1{
+    position:absolute;
+    height: 37.5px;
+width: 37.5px;
+left: 125px;
+top: 29px;
+background-image: url(../im/Vector\ \(1\).png);}
+.photo_1_2{
+    position: absolute;
+    height: 39px;
+width: 41.25px;
+left:490px;
+top: 29px;
+background-image: url(../im/Vector\(2\).png);}
+.photo_1_3{
+    position: absolute;
+    height: 44px;
+width: 48px;
+left: 850px;
+top: 29px;
+background-image: url(../im/Vector\(3\).png);}
 .box__title_1{
 font-family: Gentium Basic;
 font-size: 24px;
@@ -683,12 +727,105 @@ text-align: left;}
     background-color:#1A243F;}
 .end_1{
     position: relative;
-    height: 227px;
-    width: 415px;
-    top:0px;
+    height: 341px;
+width: 317px;
+left:35px;
+top: -40px;
+background-image: url(../im/Popular_Vector_Logos_Free_Download-removebg-preview\ 1.png);}
+.hr_end_1{
+    position: relative;
+    height:227px;
+width: 2px;
+left: 415px;
+top:-341px;
+background-color: #000000;}
+.end_2_bla{
+    position: relative;
+    height: 155px;
+width: 344px;
+left: 552px;
+top: -530px;;
+font-family: Sarabun;
+font-size: 24px;
+font-weight: 500;
+line-height: 31px;
+color: #FFFFFF;
+text-align: center;}
+.hr_end_2{
+    position: relative;
+    height:227px;
+width: 2px;
+left: 1035px;
+top:-723px;
+background-color: #000000; }
+.end_3_bla{
+    position: relative;
+    height: 20px;
+width: 83px;
+left: 1204px;
+top:-920px;
+font-family: Sarabun;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+color: #FFFFFF;
+text-align: center;}
+.svg{
+position: relative;
+height: 20px;
+width: 210px;
+left: 1147px;
+top:-900px; 
+background-color: none;}
+.none_1{
+    position: relative;
+    background: none;
     left: 0px;
-    background-color:none;}
-.end_1_fon{
-position: absolute;
-background-image: url(../im/Popular_Vector_Logos_Free_Download-removebg-preview\ 1.png);
-}
+    top: 0px;
+    border: none;}
+.svg_1{
+    height: 19.877628326416016px;
+width: 20.000696182250977px;
+fill: #FFFFFF;}
+.none_2{
+    position: relative;
+    background: none;
+    border: none;
+    left: 30px;
+    top: 0px;}
+.svg_2{
+height: 18.036001205444336px;
+width: 18.010000228881836px;
+fill: #FFFFFF;}
+.none_3{
+    position: relative;
+    background: none;
+    border: none;
+    left: 50px;
+    top: 0px; }
+.svg_3{
+    height: 16.991485595703125px;
+    width: 20.917999267578125px;
+    fill: #FFFFFF;}
+.none_4{
+    position: relative;
+    background: none;
+    border: none;
+    left: 70px;
+    top: 0px;}
+.svg_4{
+    height: 14.01200008392334px;
+width: 20.01651382446289px;
+fill: #FFFFFF;}
+.end_3_bla_bla{
+position: relative;
+ height: 40px;
+width: 250px;
+left: 1131px;
+bottom:870px;
+font-family: Sarabun;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;}
